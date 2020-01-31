@@ -2,16 +2,16 @@
 class Pwcli < Formula
   desc "Postwoman CLI in Go"
   homepage "https://github.com/athul/pwcli"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/athul/pwcli/releases/download/v0.0.1/pwcli_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "8dc64c372e019dc8a6996897ac485e645819cecae1edd0cef662227cb7dab9b1"
+    url "https://github.com/athul/pwcli/releases/download/v0.0.2/pwcli_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "6f0ce22ec8e7349ac4a57f831ff7810dd1aa67d455d6aebbfe83dcb348227957"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/athul/pwcli/releases/download/v0.0.1/pwcli_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "052dc50dcc9495128b233fed4a563f26b90935382c039617bb966912403619b0"
+      url "https://github.com/athul/pwcli/releases/download/v0.0.2/pwcli_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "b2e52c4b8ccbea67baa0055f48bbb152b4dff1593485ad7a447164390437d0b9"
     end
   end
 
