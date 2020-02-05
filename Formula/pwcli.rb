@@ -7,11 +7,11 @@ class Pwcli < Formula
 
   if OS.mac?
     url "https://github.com/athul/pwcli/releases/download/v0.0.3/pwcli_0.0.3_Darwin_x86_64.tar.gz"
-    sha256 "c0e0ea814bfb7d6891b439fd17ec7ce974fb9355fe7891caed33555e40f9c7ca"
+    sha256 "724ee29877a791260c54792385cbc3d855794896ae998c5ea698907f1fd61b3e"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/athul/pwcli/releases/download/v0.0.3/pwcli_0.0.3_Linux_x86_64.tar.gz"
-      sha256 "f516b61add80cbb9a99783e056308a53f1b48d91faa9771586384e2887b7575b"
+      sha256 "c0b66daab9957e662d7585fb43f3b326fe71a34b426681749382ec8b5c28f2e5"
     end
   end
 
