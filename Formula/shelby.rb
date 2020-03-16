@@ -2,16 +2,16 @@
 class Shelby < Formula
   desc "A fast and minimal Shell Prompt in Go with 🦋"
   homepage "https://github.com/athul/shelby"
-  version "1.0.0"
+  version "1.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/athul/shelby/releases/download/v1.0.0/shelby_1.0.0_Darwin_x86_64.tar.gz"
-    sha256 "1911456b86da57ee708d9b9c3106c303652175bb4496527392bd4d78c3ecfa19"
+    url "https://github.com/athul/shelby/releases/download/v1.0.1/shelby_1.0.1_Darwin_x86_64.tar.gz"
+    sha256 "31abebdb9dfe7a59ae15343377f2875db454c08cb29e931116fe566cadd4d6d5"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/athul/shelby/releases/download/v1.0.0/shelby_1.0.0_Linux_x86_64.tar.gz"
-      sha256 "6264933a7862227f4159a03fb551b712795474dbb17a61561f4ba1ed28b540e7"
+      url "https://github.com/athul/shelby/releases/download/v1.0.1/shelby_1.0.1_Linux_x86_64.tar.gz"
+      sha256 "ea519203aa9f9b33b5b21eda043665ec4147bf461fb3c3c7a15a8db168fa3788"
     end
   end
 
