@@ -2,16 +2,16 @@
 class HoppCli < Formula
   desc "CLI for Hoppscotch.io"
   homepage "https://github.com/hoppscotch/hopp-cli"
-  version "0.0.6"
+  version "0.0.7"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/hoppscotch/hopp-cli/releases/download/v0.0.6/hopp-cli_0.0.6_Darwin_x86_64.tar.gz"
-    sha256 "32b67c173e0f81fd589efd79f42be81a105a17bb5f116b6302df423464551dab"
+    url "https://github.com/hoppscotch/hopp-cli/releases/download/v0.0.7/hopp-cli_0.0.7_Darwin_x86_64.tar.gz"
+    sha256 "d9397b55af0878843ce8868031277c10fdacbbace941a3b7af4d0647683f09d9"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/hoppscotch/hopp-cli/releases/download/v0.0.6/hopp-cli_0.0.6_Linux_x86_64.tar.gz"
-      sha256 "97129f8e01c735b90117a424141de5b07118cf7e820cd67b2328cba95baf01da"
+      url "https://github.com/hoppscotch/hopp-cli/releases/download/v0.0.7/hopp-cli_0.0.7_Linux_x86_64.tar.gz"
+      sha256 "4b187b083ac6cb159f7725b9d254e4f915ec7de512dbfde5e11688bbf37d3622"
     end
   end
 
